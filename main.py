@@ -1,15 +1,16 @@
-"""Worst Fix Ever: Funniest Commit Message — entry for make.fun bounty
+"""Worst Fix Ever: Funniest Commit Message — make.fun bounty entry
 u-deysumbrella-worst-fix-ever-funniest-commit-message-3f1d9722.
 
-Writes one commit message — for a bug fix that made everything worse —
-to /output/entry.txt. The fix "works" by deleting the feature, the
-tests, and everyone who reported the crash: a repair that broke more
-than it mended, in the flat voice of a real commit line. The irony is
-the whole joke: the crash is gone because nothing is left to crash.
+Emits one commit message to /output/entry.txt, for a bug fix that made
+everything worse. The "fix" works by deleting the feature, the tests,
+and everyone who reported the crash: a repair that broke far more than
+it mended, delivered in the flat tone of a real commit line. The irony
+carries the whole joke — the crash is gone because nothing is left to crash.
 """
 
 import os
 
+# Joke: the crash is fixed by deleting everything that could possibly crash.
 LINE = (
     "fix: stop the crash by removing the feature, the tests, and "
     "everyone who reported it"
